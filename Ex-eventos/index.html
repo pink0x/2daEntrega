@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Eventos </title>
+</head>
+<body class="bg-slate-100 flex flex-col gap-10">
+
+    <h1 class=" bg-blue-900 flex w-[100%] p-2 mt-6 font-bold font-sans text-4xl  rounded-md shadow-md">EVENTOS - JS</h1>
+
+<main class="flex flex-wrap ">
+    
+
+    <div id="ej1" class="flex ml-10 mr-10" >
+            <h2 class="text-blue-900 font-bold m-6 text-6xl ">1°</h2>
+            <section id="contenedor1" class=" m-4 flex flex-col w-60 place-items-center py-10 bg-white rounded-md gap-14 shadow-lg">
+
+            <div id="cuadrado1" class="grisecito flex  bg-slate-300 w-48 h-48 rounded-md">          
+            </div>
+     
+     
+            <div id="divButton">
+             <button id="button" class="flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> Cambiar </button>
+            </div>
+     
+         </section>
+    </div>
+
+    <div id="ej2" class="flex ml-10">
+        <h2 class="text-blue-900 font-bold m-6 text-6xl">2°</h2>
+
+        <section id="contenedor2" class=" m-4 flex flex-col w-60 place-items-center py-10  bg-white rounded-md gap-4 shadow-lg" >
+            <div id="cuadraditoTexto" class=" flex  bg-slate-200 w-48 h-48 rounded-md">
+            </div>
+
+            <input type="text" name="texto2" id="texto2" class="border-2    rounded-sm">
+            <button id="boton2" class=" flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> RESET </button>
+        </section>
+    </div>
+
+    <div id="ej3" class="flex ml-10">
+        <h2 class="text-blue-900 font-bold m-6 text-6xl">3°</h2>
+        <section id="contenedor3" class=" m-4 flex flex-col w-60 place-items-center py-10  bg-white rounded-md gap-4 shadow-lg" >
+            <fieldset class="border-2 flex gap-2 flex-col p-2">
+                <legend class="text-blue-900">Calcular <b>Massa</b> corporal</legend>
+                <label for="Altura" class="flex flex-col justify-center"> Altura (en cm) 
+                    <input type="number" name="altura" id="altura" class="border-2">
+                </label>
+                
+                <label for="peso" class="flex flex-col justify-center">  Peso (en kg) 
+                    <input type="number" name="peso" id="peso" class="border-2 ">
+                </label>
+
+            </fieldset>
+            <div id="resultadoDiv">
+                <h2 class="flex justify-center">Resultado</h2>
+                <span id="resultado" class="flex bg-blue-100  w-40 h-6">                
+                </span>
+            </div>
+            <button id="boton3" class=" flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> Calcular </button>            
+         </section>
+    </div>
+
+    <div id="ej4" class="flex ml-10 gap-2">
+        <h2 class="text-blue-900 font-bold m-6 text-6xl">4°</h2>
+
+        <section id="contenedor4" class=" m-4 flex flex-col w-60 place-items-center py-10  bg-white rounded-md gap-4 shadow-lg" >
+            <div id="monedaLocalDiv">
+                <h2 class="font-semibold text-blue-900">Moneda Local</h2>
+                <p>Sin comas ni puntos</p>
+                <input type="number" name="" id="monedaLocal"class="border-2 rounded-sm">
+            </div>
+
+            <div id="dolarDiv">
+                <h2 class="font-semibold text-blue-900">USD Dolar</h2>
+                <input type="number" name="" id="dolarInput"class="border-2 rounded-sm">
+            </div>
+
+            <button id="botonConvertir" class=" flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> Convertir </button> 
+            <button id="botonBorrar" class=" flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> Borrar </button>
+        </section>    
+
+
+        <section id="contenedor4" class=" m-4 flex flex-col w-60 place-items-center py-10  bg-white rounded-md gap-4 shadow-lg" >
+
+
+                <div id="dolarDiv">
+                    <h2 class="font-semibold text-blue-900">USD Dolar</h2>
+                    <p>Sin comas ni puntos</p>
+                    <input type="number" name="" id="dolarInput2"class="border-2 rounded-sm">
+                </div>
+
+                <div id="monedaLocalDiv">
+                    <h2 class="font-semibold text-blue-900">Moneda Local</h2>
+                    <input type="number" name="" id="monedaLocal2"class="border-2 rounded-sm">
+                </div>
+    
+                
+    
+                <button id="botonConvertir2" class=" flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> Convertir </button> 
+                <button id="botonBorrar2" class=" flex shadow-lg bg-yellow-400 px-4 py-1 rounded-sm"> Borrar </button>   
+        </section>    
+       
+
+           
+
+        
+
+
+    </div>
+
+</main>
+<footer class="flex h-10 bg-blue-900 shadow-lg items-center justify-center">
+    <h2 class="text-white text-lg font-semibold">COHORT N52 - Sofía Pincolini</h2>
+</footer>
+
+   
+    
+    <script src="assets/index.js"></script>
+</body>
+</html>
